@@ -10,15 +10,15 @@ package br.unesp.rc.appru.modelo;
  */
 public class Aluno {
 
-    private String nome, emai, telefone, nRU;
+    private String nome, email, telefone, nRU;
     private int tipo;
 
     public Aluno() {
     }
 
-    public Aluno(String nome, String emai, String telefone, int tipo, String nRU) {
+    public Aluno(String nome, String email, String telefone, int tipo, String nRU) {
         this.nome = nome;
-        this.emai = emai;
+        this.email = email;
         this.telefone = telefone;
         this.tipo = tipo;
         this.nRU = nRU;
@@ -32,12 +32,12 @@ public class Aluno {
         this.nome = nome;
     }
 
-    public String getEmai() {
-        return emai;
+    public String getEmail() {
+        return email;
     }
 
-    public void setEmai(String emai) {
-        this.emai = emai;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getTelefone() {
@@ -66,7 +66,7 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno{" + "nome=" + nome + ", emai=" + emai + ", telefone=" + telefone + ", tipo=" + tipo + ", nRU=" + nRU + '}';
+        return "Aluno{" + "nome=" + nome + ", emai=" + email + ", telefone=" + telefone + ", tipo=" + tipo + ", nRU=" + nRU + '}';
     }
 
 }

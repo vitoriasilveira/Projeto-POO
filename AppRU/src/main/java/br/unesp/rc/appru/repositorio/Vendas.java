@@ -76,7 +76,7 @@ public class Vendas {
         } else {
             lista = new LinkedList<>(this.listaPerm);
         }
-        lista.removeIf(c -> c.getRuVendedor().equals(nRU) != true);
+        lista.removeIf(c -> c.getVendedor().getnRU().equals(nRU) != true);
         return lista;
     }
 

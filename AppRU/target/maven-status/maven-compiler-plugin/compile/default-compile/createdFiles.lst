@@ -1,0 +1,9 @@
+br\unesp\rc\appru\modelo\Aluno.class
+br\unesp\rc\appru\modelo\Venda.class
+br\unesp\rc\appru\repositorio\Vendas.class
+utils\DataUtils.class
+br\unesp\rc\appru\AppRU.class
+br\unesp\rc\appru\modelo\Pesquisa.class
+br\unesp\rc\appru\repositorio\Pesquisas.class
+br\unesp\rc\appru\modelo\Mensagem.class
+br\unesp\rc\appru\repositorio\Alunos.class
